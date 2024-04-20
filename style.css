@@ -1,0 +1,137 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "DM Sans", sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right,#fff3b0,  #ffb2f1);
+  }
+   
+   
+   nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+padding: 15px 100px 15px 100px;
+    background-color: #fe7171;
+    align-items: center;
+    margin-bottom: 0px;
+    
+   }
+   #navbar img {
+    width: 40px;
+    height: 40px;
+    } 
+a{
+    text-decoration: none;
+}
+   .nav-list{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    align-items: center;
+    
+   }
+   .nav-list a{
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    width: 30%;
+    text-align: center;
+   }   
+  .main-image img{
+    position: absolute;
+    top: 50px;
+    right: -50px;   
+    height: 700px;
+    width: 50%;
+    
+    }
+    .main-content{
+      margin-top: 150px;
+      margin-left: 100px;
+      margin-right: 50%;
+    }
+    .main-content h1{
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+.main-content p{
+  font-size: 20px;
+  font: small;
+  font-family:sans-serif ;
+  text-align: justify;
+  line-height: 35px;
+}
+.main-content button{
+  background-color: #fe7171;
+  border: none;
+  margin-top: 35px;
+  position: absolute;
+  left: 150px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.review-section{
+  margin-top: 55vh;
+  margin-bottom: 20vh;
+}
+.lorem{
+  background-color: #fe7171;
+  position: absolute;
+  right: 120px;
+  margin-top: 120px;
+  padding: 30px;
+  text-align: left;
+  height: 300px;
+  width: 600px;
+  
+}
+.lorem h3{
+  font-size: 20px;
+  font-weight: 50;
+  margin-bottom: 20px;
+
+}
+.lorem h1{
+  font-size: 65px;
+  letter-spacing: 7px;
+  margin-bottom: 15px;
+}
+.lorem button{
+  background-color: #fe7171;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.icon img{
+position: absolute;
+right: 480px;
+bottom: 35px;
+}
+
+.page2 {
+  display: flex;
+}
+#container1 .photo1{
+  display: grid;
+  padding-left: 100px;
+}
+
+.photo1 img{
+  height: 270px;
+  width: 320px;
+  padding: 0px 5px 10px 0px;
+}
+.photo2 img{
+  height: 530px;
+  width: 320px;
+  padding: 0px 0px 0px 15px;
+}
